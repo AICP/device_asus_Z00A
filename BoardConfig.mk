@@ -24,6 +24,9 @@ BOARD_RECOVERY_KEY := device/asus/Z00A/keys/recovery_z00a.sig
 # Charger
 BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/asus/Z00A/charger/images
 
+# Charger
+BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/asus/Z00A/charger/images
+
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 59261286400
 
