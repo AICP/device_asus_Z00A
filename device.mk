@@ -28,6 +28,10 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/Z00A/overlay
+    
+# Boot image Signature
+PRODUCT_COPY_FILES += \
+    device/asus/Z00A/keys/boot_z00a.sig:install/bin/boot.sig
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
@@ -42,9 +46,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     sys.nfc.project_id_str=ze551ml \
     sys.nfc.loc=gold \
     sys.nfc.brcm.cfg=/etc/libnfc-brcm.conf \
-    sys.nfc.brcm.chip_cfg=/etc/libnfc-brcm-20795a20.conf \
-    ro.nfc.conf=mofd-ffd2-a \
-    ro.nfc.clk=pll
+    sys.nfc.brcm.chip_cfg=/etc/libnfc-brcm-20795a20.conf
 
 # NFC packages
 PRODUCT_PACKAGES += \
