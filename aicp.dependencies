@@ -1,6 +1,6 @@
 [
   {
-    "repository":  "TytanGat/android_device_asus_mofd-common",
+    "repository":  "FuryDragons/android_device_asus_mofd-common",
     "target_path": "device/asus/mofd-common",
     "branch": 	   "TTN7.1"
   },
@@ -15,7 +15,7 @@
    "branch":      "cm-14.1"
   },
   {
-   "repository":  "TytanGat/proprietary_vendor_asus",
+   "repository":  "FuryDragons/proprietary_vendor_asus",
    "target_path": "vendor/asus",
    "branch":      "TTN7.1"
   }
