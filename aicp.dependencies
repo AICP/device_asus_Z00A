@@ -1,16 +1,16 @@
 [
   {
-    "repository":  "FuryDragons/device_asus_mofd-common",
+    "repository":  "LineageOS/android_device_asus_mofd-common",
     "target_path": "device/asus/mofd-common",
-    "branch": 	   "FDS-N"
+    "branch":    "cm-14.1"
   },
   {
-   "repository":  "CyanogenMod/android_kernel_asus_moorefield",
+   "repository":  "LineageOS/android_kernel_asus_moorefield",
    "target_path": "kernel/asus/moorefield",
    "branch":      "cm-14.1"
   },
   {
-   "repository":  "CyanogenMod/android_external_stlport",
+   "repository":  "LineageOS/android_external_stlport",
    "target_path": "external/stlport",
    "branch":      "cm-14.1"
   },
@@ -20,8 +20,13 @@
    "branch":      "n7.1"
   },
   {
-   "repository":  "CyanogenMod/android_packages_resources_devicesettings",
+   "repository":  "LineageOS/android_packages_resources_devicesettings",
    "target_path": "packages/resources/devicesettings",
    "branch":      "cm-14.1"
+  },
+  {
+    "repository": "LineageOS/android_packages_apps_FlipFlap",
+    "target_path": "packages/apps/FlipFlap",
+    "branch":      "cm-14.1"
   }
 ]
